@@ -1,0 +1,283 @@
+
+img{
+    max-width: 100%;
+}
+
+/***************************** Manu style *************************/
+.manubar-header a span{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 700;
+    color: black;
+}
+.manubar-header .container span>sup{
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(31, 29, 29);
+}
+
+.manubar-header a{
+    text-decoration: none;
+}
+.manubar-header img{
+    height: 60px;
+    width: 70px;
+    
+}
+
+.manubar-header span i{
+    font-size: 41px;
+    display: inline-block;
+    background: #6278df;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.navbar-list .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    
+}
+
+/******************** Banner Section ***********************/
+
+.banner-image{
+    background: url(../img/mypic1.png) no-repeat center center fixed;
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        50% 100%,
+        0 80%
+    );
+    position: relative;
+    z-index: 1;
+
+}
+.banner-image::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(47,79,79,0.6);
+    z-index: -1;
+}
+
+.banner-text h4{
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 350;
+    font-size: 26px;
+}
+.banner-text h1{
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+
+/*******************aboute Style******************/
+.about-img>img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    box-shadow: 5px 2px 2px 2px rgb(34, 33, 33);
+    box-shadow: inset 0px 0px 40px 40px #DBA632;
+    
+}
+.about-img>img:hover{
+    opacity: .8;
+    transition: .5s;
+}
+.aboute-section{
+    background-image: linear-gradient(180deg,#ffff,#eceff3);
+    padding:110px 0;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        50% 100%,
+        0 80%
+    );
+}
+
+.about-text h1{
+    font-size: 42px;
+    padding-top: 60px;
+    font-weight: 400px;
+    
+}
+.about-text p{
+    text-align: justify;
+    font-size: 22px;
+    padding-top: 30px;
+    font-weight: 400px;
+    
+}
+/*********************** Work Tile style ********************/
+.work-title{
+    padding: 30px;
+}
+.work-title>h1{
+    opacity: .9;
+    text-align: center;
+}
+.work-title>p{
+    font-size: 22px;
+    font-weight: 350;
+    text-align: center;
+}
+.project_work{
+	
+}
+
+/*********************** Gallary style ********************/
+
+.title-gallary{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.title-gallary h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.gallery-img img{
+ 
+}
+
+.gallery-img a{
+    position: relative;
+    display: block;
+}
+.gallery-img a::after{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(142,158, 230, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    
+}
+.gallery-img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/******************pricing styel**********************/
+
+.price-list-style ul li{
+    font-size: 25px;
+    line-height: 70px;
+    list-style: none;
+    
+}
+.price-list-style ul li span{
+    color: #6278df;
+    font-size: 30px;
+}
+.price-list-style p{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.pricing-btn a{
+    font-size: 25px;
+    font-weight: 700;
+}
+.price-list-style{
+	-webkit-box-shadow: 1px 1px 15px 1px #D6D6D6;
+    box-shadow: 1px 1px 15px 1px #D6D6D6;
+}
+
+.price-list-style:hover{
+	-webkit-box-shadow: 3px 3px 15px 2px #C4C4C4;
+	box-shadow: 3px 3px 15px 2px #C4C4C4;
+}
+
+.box-pad{
+    padding:50px 20px 83px ;
+}
+
+/***************************Feedback style********************/
+
+.feedback-text p{
+    font-size: 20px;
+}
+
+.feedback-text span{
+	color: #f0f0f0;
+}
+.anth-pic{
+    width: 200px;
+    margin: auto;
+    text-align: left;
+}
+.user-info{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.anth-pic img{
+    width: 80px;
+    margin-right: 15px;
+}
+
+/*****************Team Style************************/
+
+.team-back{
+    background: #f7f9ff;
+
+}
+.title-team h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.team-member .card img{
+    width: 140px;
+    height:145px;
+    margin-top: -60px;
+    margin-left: 15px;
+    
+}
+
+/********************Form style******************/
+
+.input-shadow{
+	-webkit-box-shadow: 1px 1px 15px 1px #D6D6D6;
+	box-shadow: 1px 1px 15px 1px #D6D6D6;
+}
+.input-shadow:hover{
+	-webkit-box-shadow: 1px 1px 15px 5px #BBA9F5;
+	box-shadow: 1px 1px 15px 5px #BBA9F5;
+}
+
+
+
+/* Footer */
+.foot-color{
+	background: #f7f9ff;
+}
+.foot-text h4 a{
+    text-decoration: none;
+}
